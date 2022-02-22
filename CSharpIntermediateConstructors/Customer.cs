@@ -18,19 +18,28 @@ namespace CSharpIntermediateConstructors
 
         }
 
-        public Customer(int id) //ctor this is code snippet
+        //public Customer(int id) //ctor this is code snippet
+        //    :this()
+        //{
+        //    this.Id = Id;
 
-        {
-            this.Id = Id;
+        //}
 
-        }
-
-        public Customer(int id, string name)
-        {
-            this.Id= id;
-            this.Name = name;
-        }
+        //public Customer(int id, string name)
+        //    :this(id)
+        //{
+        //    this.Id= id;
+        //    this.Name = name;
+        //}
     }
 }
 
 //ctrl tab to switch to files.
+
+/*
+ Overloading constructors - That means we have three different constructors. Each has a different signature.
+
+
+
+
+ */
