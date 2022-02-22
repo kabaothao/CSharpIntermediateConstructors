@@ -13,6 +13,12 @@ namespace CSharpIntermediateConstructors // Note: actual namespace depends on th
         {   
             //Customer customer = new Customer(); //a better way is to use var
             var customer = new Customer(1, "John");
+            customer.Id = 1;
+            customer.Name = "John";
+
+            var order = new Order();
+            customer.Orders.Add(order);
+            customer.Orders.Add(order);
 
 
             Console.WriteLine(customer.Id);

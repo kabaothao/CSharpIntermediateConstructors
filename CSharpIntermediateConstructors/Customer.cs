@@ -10,9 +10,11 @@ namespace CSharpIntermediateConstructors
     {
         public int Id;
         public string Name;
+        public List<Order> Orders;  //List is a generic class and takes a parameter. We can store type objects of orders.
 
         public Customer()
         {
+            //Orders = new List<Order>();
 
         }
 
