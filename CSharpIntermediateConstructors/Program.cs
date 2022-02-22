@@ -20,7 +20,6 @@ namespace CSharpIntermediateConstructors // Note: actual namespace depends on th
             customer.Orders.Add(order);
             customer.Orders.Add(order);
 
-
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name); //cw for short cut as a code snippet
 
