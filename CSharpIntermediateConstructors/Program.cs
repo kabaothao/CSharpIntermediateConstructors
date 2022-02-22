@@ -7,17 +7,17 @@ using System;
 namespace CSharpIntermediateConstructors // Note: actual namespace depends on the project name.
 {   
 
-    public class Customer
-    {
-        public int Id;
-        public string Name;
-    }
-
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {   
+            //Customer customer = new Customer(); //a better way is to use var
+            var customer = new Customer(1, "John");
+
+
+            Console.WriteLine(customer.Id);
+            Console.WriteLine(customer.Name); //cw for short cut as a code snippet
+
         }
     }
 }
